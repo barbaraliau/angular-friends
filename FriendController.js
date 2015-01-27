@@ -7,7 +7,16 @@ $scope.search = '';
 $scope.searchAttribute = '';
 $scope.sort = '';
 
+$scope.options = [
 
+	{value: "name", label: "Name"},
+	{value: "friend_count", label: "# Friends"},
+	{value: "current_location.city", label: "City"},
+	{value: "current_location.state", label: "State"},
+	{value: "current_location.country", label: "Country"}
+];
+
+orderBy: order
 
 
 	$scope.friends =
