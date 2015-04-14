@@ -18,7 +18,7 @@
         <div class="form-group">
           <input class="form-control" placeholder="Search Anything About Your Friends" ng-model="searchTerm.name">
           <input class="form-control" placeholder="Search Friends' Location" ng-model="searchTerm.current_location">
-          <select class="input-medium" ng-model="searchAttribute" ng-options="whatever.value as whatever.label for whatever in filterOptions">
+          <select class="input-medium" ng-model="searchAttribute" ng-options="option.value as option.label for option in filterOptions">
             <option value="">Choose One</option>} option
           </select>
           <!--  <select class="input-medium" ng-model="searchAttribute">
